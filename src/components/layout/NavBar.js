@@ -8,42 +8,14 @@ export default class NavBar extends Component {
 					<a className="navbar brand col-sm-3 col-md-2 mr-0 align-items-center badge badge-primary text-wrap auto ">
 						Pokedex
 					</a>
-					<ul class="pagination justify-content-end">
-						<li class="page-item disabled">
-							<a class="page-link" href="#" tabindex="-1">
-								Previous
-							</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">
-								1
-							</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">
-								2
-							</a>
-						</li>
 
-						<li class="page-item">
-							<a class="page-link" href="#">
-								Next
-							</a>
-						</li>
-					</ul>
-					<form className="form-inline">
+					<form className="form-inline d-flex justify-content-center md-form form-sm mt-0 ">
 						<input
-							className="form-control mr-sm-2"
+							className="form-control form-control-sm ml-3 "
 							type="search"
-							placeholder="Search"
+							placeholder="Search by name"
 							aria-label="Search"
 						></input>
-						<button
-							className="btn btn-outline-fail my-2 my-sm-0"
-							type="submit"
-						>
-							Search
-						</button>
 					</form>
 				</nav>
 			</div>

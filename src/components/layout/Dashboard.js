@@ -5,7 +5,7 @@ export default class extends Component {
 		return (
 			<div className="row">
 				<div className="col">
-					<PokemonList />
+					<PokemonList></PokemonList>
 				</div>
 			</div>
 		);
