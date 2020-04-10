@@ -3,7 +3,7 @@ import PokemonCard from "./PokemonCard";
 import axios from "axios";
 export default class PokemonList extends Component {
 	state = {
-		url: "https://pokeapi.co/api/v2/pokemon/",
+		url: "https://pokeapi.co/api/v2/pokemon?offset=&limit=100",
 		pokemon: null,
 	};
 
