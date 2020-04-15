@@ -1,7 +1,7 @@
 .App {
 	padding-top: 4rem;
 	min-height: 100vh;
-	background-image: url("./Image/pokemon.jpg");
+	background-image: url("/src/assets/pokemon.jpg");
 }
 .navbar {
 	background-color: coral !important;
