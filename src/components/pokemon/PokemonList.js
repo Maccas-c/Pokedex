@@ -7,7 +7,7 @@ export default class PokemonList extends Component {
 		pokemonListToDisplay: null,
 		page: 1,
 	};
-	url = "https://pokeapi.co/api/v2/pokemon?offset=&limit=120";
+	url = "https://pokeapi.co/api/v2/pokemon?offset=&limit=96";
 	perPage = 12;
 
 	async componentDidMount() {
@@ -48,7 +48,7 @@ export default class PokemonList extends Component {
 						<div className="btn btn-outline-danger ">
 							{this.getPaginationArray().map(num => (
 								<button
-									className="light"
+									className="btn btn-outline-light"
 									onClick={e => this.bindPageChange(num, e)}
 									key={num}
 								>
