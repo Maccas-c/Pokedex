@@ -45,10 +45,10 @@ export default class PokemonList extends Component {
 			<React.Fragment>
 				{this.state.pokemonListToDisplay ? (
 					<div>
-						<div className="btn btn-outline-danger">
+						<div className="btn btn-outline-danger ">
 							{this.getPaginationArray().map(num => (
 								<button
-									className="btn btn-light"
+									className="light"
 									onClick={e => this.bindPageChange(num, e)}
 									key={num}
 								>
